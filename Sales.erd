@@ -1,0 +1,173 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -1107.8333,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "@dineug/erd-editor/builtin-schema-sql",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "rIGvTmk3rulVLaPCkBe38"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "rIGvTmk3rulVLaPCkBe38": {
+        "id": "rIGvTmk3rulVLaPCkBe38",
+        "name": "Employees",
+        "comment": "",
+        "columnIds": [
+          "sejqDCH9RXuN1HFawwWCE",
+          "CA9Lzm6Kd8PsN9WJUXJGL",
+          "vKGo2tOkwbs8yewCK2oPb"
+        ],
+        "seqColumnIds": [
+          "sejqDCH9RXuN1HFawwWCE",
+          "CA9Lzm6Kd8PsN9WJUXJGL",
+          "vKGo2tOkwbs8yewCK2oPb"
+        ],
+        "ui": {
+          "x": 200,
+          "y": 1301.8333,
+          "zIndex": 2,
+          "widthName": 63,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1715007757790,
+          "createAt": 1715007708593
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "sejqDCH9RXuN1HFawwWCE": {
+        "id": "sejqDCH9RXuN1HFawwWCE",
+        "tableId": "rIGvTmk3rulVLaPCkBe38",
+        "name": "id",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715007755075,
+          "createAt": 1715007722360
+        }
+      },
+      "CA9Lzm6Kd8PsN9WJUXJGL": {
+        "id": "CA9Lzm6Kd8PsN9WJUXJGL",
+        "tableId": "rIGvTmk3rulVLaPCkBe38",
+        "name": "name",
+        "comment": "",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715007744397,
+          "createAt": 1715007736375
+        }
+      },
+      "vKGo2tOkwbs8yewCK2oPb": {
+        "id": "vKGo2tOkwbs8yewCK2oPb",
+        "tableId": "rIGvTmk3rulVLaPCkBe38",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1715007757790,
+          "createAt": 1715007757790
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "rIGvTmk3rulVLaPCkBe38": [
+      "tableEntities",
+      1715007708591,
+      -1,
+      {
+        "name": 1715007720436
+      }
+    ],
+    "sejqDCH9RXuN1HFawwWCE": [
+      "tableColumnEntities",
+      1715007722357,
+      -1,
+      {
+        "name": 1715007727073,
+        "dataType": 1715007732457,
+        "options(notNull)": 1715007746885,
+        "options(primaryKey)": 1715007755074
+      }
+    ],
+    "CA9Lzm6Kd8PsN9WJUXJGL": [
+      "tableColumnEntities",
+      1715007736375,
+      -1,
+      {
+        "name": 1715007739246,
+        "dataType": 1715007744395
+      }
+    ],
+    "vKGo2tOkwbs8yewCK2oPb": [
+      "tableColumnEntities",
+      1715007757788,
+      -1,
+      {}
+    ]
+  }
+}
